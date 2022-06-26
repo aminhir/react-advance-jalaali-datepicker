@@ -34,7 +34,7 @@ let Styles = nDays => {
             z-index: 1;
         }
         .JDatePicker .month-items:hover, .JDatePicker .month-items.selected {
-            background: aliceblue;
+            background: red;
             color: #ccc;
         }
         .JDatePicker .month-items {
@@ -45,6 +45,7 @@ let Styles = nDays => {
             padding: 4px 0px;
             border: 1px solid #ccc;
             font-size: 14px;
+	    backgroundColor:'red';
         }
         .JDatePicker .JC-months .prev,  .JDatePicker .JC-months .next{
             float: right;
